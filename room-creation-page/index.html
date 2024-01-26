@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pictionary</title>
+</head>
+
+<body style="background-color: #79eff6; padding: 30px;">
+    <h1>Pictionary </h1>
+
+    <h2>play with your friends</h2>
+<section style="background-color: #f679f2; padding: 30px;">
+    <h2>Create Room</h2>
+    <h4>Username:</h4>
+    <form id="userInput">
+        <input type="text", id="userName", placeholder="name">
+
+        <button type="button" onclick="submitUsername()">create</button>
+    </form>
+    
+</section>
+<br>
+<br>
+<section style="background-color: #f67979; padding: 30px;">
+    <h2>join room:</h2>
+    <h4>Username:</h4>
+    <form id="userInput">
+        <input type="text", id="userName", placeholder="name">
+    <h4>room code:</h4>
+        <input type="text", id="roomCode", placeholder="Code">
+
+        <button type="button" onclick="submittedCode()" >join</button>
+    </form>
+</section>
+    
+</body>
+<script src="index.js">
+</script>
+</html>
